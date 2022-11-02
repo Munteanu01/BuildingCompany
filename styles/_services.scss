@@ -1,0 +1,23 @@
+.serviceCardsImg{
+    width: 85px;
+    height: 85px;
+    position: relative;
+    translate: (45% 45%);
+}
+#iconBgColor{
+    width:70px;
+    height: 70px;
+    background-color:$secondaryColor;
+    position: absolute;
+    translate: (30% 30%);
+}
+.card{
+    max-width: 550px;
+}
+.cardBorderRadius{
+    border-radius: 0%;
+    border: 1px solid $secondaryColor;
+}
+.serviceTitles{
+    font-weight: 600;
+}

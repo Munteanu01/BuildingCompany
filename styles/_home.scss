@@ -1,0 +1,18 @@
+h1, h4, a, p{
+    font-family: $primaryFont;
+    color: $primaryColor;
+}
+.colorText{
+    color: $secondaryColor;
+}
+.homeCards{
+    font-family: $primaryFont;
+    & h4{
+        font-weight: 600;
+    }
+}
+#footer{
+    h4{
+        font-weight: 600;
+        font-size: 1.7rem;}
+}

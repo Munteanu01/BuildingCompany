@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+#logo {
+  width: 69px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0 30px 0 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+.navOnScroll {
+  background-color: white;
+}
+
+h1, h4, a, p {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.colorText {
+  color: #FFDA27;
+}
+
+.homeCards {
+  font-family: "Poppins", sans-serif;
+}
+.homeCards h4 {
+  font-weight: 600;
+}
+
+#footer h4 {
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+.navLinks {
+  font-family: "Poppins", sans-serif;
+}
+.navLinks:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #FFDA27;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.3s;
+}
+.navLinks:hover:after {
+  transform: scaleX(1);
+}
+
+.navLink {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.navLink:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #FFDA27;
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.3s;
+}
+.navLink:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #FFDA27;
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.3s;
+}
+.navLink:hover:before, .navLink:hover:after {
+  transform: scaleX(1);
+}
+
+.seeLinks {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  line-height: 3;
+}
+.seeLinks::before {
+  content: "";
+  background-color: #FFDA27;
+  position: absolute;
+  left: 0.5rem;
+  bottom: 5px;
+  width: 100%;
+  height: 8px;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+.seeLinks:hover {
+  color: black;
+}
+.seeLinks:hover::before {
+  left: -5px;
+  bottom: 0;
+  height: 100%;
+  width: calc(100% + 10px);
+}
+
+.prefooterLink {
+  box-shadow: inset 0 0 0 0 #FFDA27;
+  border: 3px solid #FFDA27;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  padding: 2px 8px 0 8px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.prefooterLink:hover {
+  box-shadow: inset 203px 0 0 0 #FFDA27;
+  color: white;
+}
+
+.footerLinks {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  line-height: 2;
+  font-size: 1.1rem;
+  position: relative;
+}
+.footerLinks::before {
+  content: "";
+  background-color: #FFDA27;
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 3px;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+.footerLinks:hover {
+  color: black;
+}
+.footerLinks:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+.serviceCardsImg {
+  width: 85px;
+  height: 85px;
+  position: relative;
+  translate: 45% 45%;
+}
+
+#iconBgColor {
+  width: 70px;
+  height: 70px;
+  background-color: #FFDA27;
+  position: absolute;
+  translate: 30% 30%;
+}
+
+.card {
+  max-width: 550px;
+}
+
+.cardBorderRadius {
+  border-radius: 0%;
+  border: 1px solid #FFDA27;
+}
+
+.serviceTitles {
+  font-weight: 600;
+}
+
+#validationDefault07 {
+  height: 200px;
+  border-radius: 0;
+}
+
+#validationDefault07:focus, #validationDefault06:focus {
+  border: 3px solid #FFDA27;
+  box-shadow: none;
+}
+
+.inputStyles {
+  line-height: 2.2;
+  border-radius: 0%;
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.btn {
+  background-color: #FFDA27;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border-radius: 0%;
+  width: 230px;
+  height: 50px;
+}
+
+.form-control:focus {
+  border-color: #FFDA27;
+  box-shadow: 6px 6px #FFDA27;
+}/*# sourceMappingURL=style.css.map */
